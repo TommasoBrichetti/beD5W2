@@ -47,7 +47,7 @@ public class Archive {
             List<Book> searchedList = list.stream()
                     .filter(c -> c instanceof Book)
                     .map(c -> (Book) c)
-                    .filter((c -> c.getAuthor() == author))
+                    .filter((c -> c.getAuthor().equals(author)))
                     .collect(Collectors.toList());
 
             AtomicInteger i = new AtomicInteger();

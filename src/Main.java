@@ -29,21 +29,22 @@ public class Main {
 
 //        archivio.setList(arr);
 
+        archivio.downloadBackup();
+
 //        archivio.removeByIsbn(0);
 
-//        archivio.searchAuthor("mary");
+        archivio.searchAuthor("mary");
 
 //        archivio.searchIsbn(7);
 
-//        archivio.searchYear(2022);
+        archivio.searchYear(2022);
 
 //        archivio.saveBackup();
 
-//        archivio.downloadBackup();
 
 //        archivio.printList();
 
-        Scanner scanner = new Scanner(System.in);
+
 
 
 
